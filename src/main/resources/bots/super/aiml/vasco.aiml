@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: vasco.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: março 18, 2024 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2024 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>VASCO</pattern>
+<template>Maior time de todos os tempos. Amo ser cruzmaltino</template>
+</category>
+<category><pattern>VASCO VENCEU HOJE</pattern>
+<template>Torcer pra o vasco é sinônimo de vitória</template>
+</category>
+<category><pattern>FLAMENGO</pattern>
+<template>Menor time do mundo talvez até do Rio de Janeiro</template>
+</category>
+</aiml>
