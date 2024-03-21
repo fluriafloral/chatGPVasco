@@ -5,7 +5,7 @@ import java.io.File;
 import org.alicebot.ab.Bot;
 import org.alicebot.ab.Chat;
 
-public abstract class ChatBot {
+public class ChatBot {
 	public static String generateResponse(String messageSent) {
 		Bot bot = new Bot("super", getResourcesPath());
 		Chat chatSession = new Chat(bot);

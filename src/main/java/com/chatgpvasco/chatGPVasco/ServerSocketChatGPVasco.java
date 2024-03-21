@@ -8,7 +8,7 @@ import java.io.DataOutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class ServerSocketChatGPVasco extends ChatBot{
+public class ServerSocketChatGPVasco {
 	
 	public ServerSocketChatGPVasco(int port) {
 		try {
@@ -33,7 +33,7 @@ public class ServerSocketChatGPVasco extends ChatBot{
 				do {
 					
 					messageSent = in.readUTF();
-					out.writeUTF(generateResponse(messageSent));
+					out.writeUTF(ChatBot.generateResponse(messageSent));
 					
 				} while (!messageSent.trim().equals("tchau"));
 				
